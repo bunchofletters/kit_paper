@@ -30,6 +30,9 @@ export default function DisplayPaper({imageInfo, headerText}: paperSetUp){
                         className={`max-w-full max-h-screen object-contain`}
                     />
                 </div>
+                <div className="absolute top-2 right-2">
+                    <button className="cursor-pointer text-4xl">&#11198;</button>
+                </div>
             </div>
         )}
         </>
