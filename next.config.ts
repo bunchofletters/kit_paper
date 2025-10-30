@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   devIndicators: false,
   output: 'export',
-  basePath: '/kit_paper/doc',
+  basePath: '/kit_paper/docs',
   images: {
     unoptimized: true
   }
