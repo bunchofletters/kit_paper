@@ -38,6 +38,16 @@ export default function Home() {
           />
         </Link>
       </div>
+      <div className="flex justify-center mt-1 mb-1">
+        <Link href="/FennecEarPiece">
+          <Image
+            src="/logo/Fennec_Ear_Piece_Logo.png"
+            alt="The Fennec Ear Piece Logo"
+            width={400}
+            height={100}
+          />
+        </Link>
+      </div>
     </div>
     </>
   );
