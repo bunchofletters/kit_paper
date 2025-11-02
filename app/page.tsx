@@ -48,6 +48,16 @@ export default function Home() {
           />
         </Link>
       </div>
+      <div className="flex justify-center mt-1 mb-1">
+        <Link href="/kitsuneHowler">
+          <Image
+            src="/logo/Kitsco_Howler_Piece.png"
+            alt="The Kitsune Howler Logo"
+            width={400}
+            height={100}
+          />
+        </Link>
+      </div>
     </div>
     </>
   );
