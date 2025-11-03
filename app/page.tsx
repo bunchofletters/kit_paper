@@ -58,6 +58,16 @@ export default function Home() {
           />
         </Link>
       </div>
+      <div className="flex justify-center mt-1 mb-1">
+        <Link href="/cozumelJournal">
+          <Image
+            src="/logo/Cozumel_Journal_Piece_Logo.png"
+            alt="The Cozumel Journal Logo"
+            width={400}
+            height={100}
+          />
+        </Link>
+      </div>
     </div>
     </>
   );
