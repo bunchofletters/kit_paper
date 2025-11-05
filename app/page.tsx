@@ -68,6 +68,16 @@ export default function Home() {
           />
         </Link>
       </div>
+      <div className="flex justify-center mt-1 mb-1">
+        <Link href="/stTruthInquisator">
+          <Image
+            src="/logo/St._Truth_Inquisitor_Piece_Logo.png"
+            alt="The St Truth Inquisitor Logo"
+            width={400}
+            height={100}
+          />
+        </Link>
+      </div>
     </div>
     </>
   );
