@@ -13,13 +13,21 @@ export default function Home() {
             height={100}
         />
     </div>
-    <div className="flex justify-center mt-5">
-        <div className="box-content w-1500 h-30 border flex justify-center items-center flex-col">
+    <div className="flex justify-center mt-5 flex-col">
+        <div className="box-content w-95vh h-30 border flex justify-center items-center flex-col">
             <DisplayPaper
                 imageInfo={["/articles/fennecEar/Fennec_Ear_Piece.png", "Fennec Ear Piece 1", 900, 500]}
                 headerText={["United State Threatens War. Texas Border in High Tension.", "text-2xl text-blue-400"]}
             />
             <p className="text-center">The 2nd Republic of Texas and the Democratic Kitsune's Republic of Kitsunestan signed a formally defence cooperation. The United States of America is not happy about it. Read Now.
+            </p>
+        </div>
+        <div className="box-content w-95vh h-30 border flex justify-center items-center flex-col">
+            <DisplayPaper
+                imageInfo={["/articles/fennecEar/Fennec_Ear_2nd_Piece.png", "Fennec Ear Piece 2", 900, 500]}
+                headerText={["North America on the Brink of War.", "text-2xl text-blue-400"]}
+            />
+            <p className="text-center">United State Tension has reached an all time high. Will Kitsunestan be dragged into this conflict, read more now. 
             </p>
         </div>
     </div>
