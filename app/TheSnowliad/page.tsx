@@ -13,13 +13,21 @@ export default function Home() {
           height={200}
         />
     </div>
-    <div className="flex justify-center mt-5">
-        <div className="box-content w-1500 h-15 border flex justify-center items-center flex-col">
+    <div className="flex justify-center mt-5 flex-col">
+        <div className="box-content w-95vh h-15 border flex justify-center items-center flex-col">
             <DisplayPaper
                 imageInfo={["/articles/SnowliadPost/snowliad1.png", "Snowliad Paper 1", 1000, 300]}
                 headerText={["Kitsunestan President her Excellency Caught in a Scandle!!?", "text-2xl text-blue-400"]}
             />
             <p>Her Excenellency, the President Has been found to be in some hot water this past week. The scandle has only grown worse...
+            </p>
+        </div>
+        <div className="box-content w-95vh h-15 border flex justify-center items-center flex-col">
+            <DisplayPaper
+                imageInfo={["/articles/SnowliadPost/Snowliad_Post_2nd_Piece.png", "Snowliad Paper 2", 1000, 300]}
+                headerText={["Planned Archeological Expedition Underway on Greenland", "text-2xl text-blue-400"]}
+            />
+            <p>Her Excenellency in Search of the lost city of Beijing; Plan to excavate newly brought Greenland. Learn more about Her Excenellency plan by read it here now.
             </p>
         </div>
     </div>
