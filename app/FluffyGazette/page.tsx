@@ -13,13 +13,21 @@ export default function Home() {
           height={0}
         />
     </div>
-    <div className="flex justify-center mt-5">
-        <div className="box-content w-1500 h-30 border flex justify-center items-center flex-col">
+    <div className="flex justify-center mt-5 flex-col">
+        <div className="box-content w-95vh h-30 border flex justify-center items-center flex-col">
             <DisplayPaper
                 imageInfo={["/articles/FluffyGazette/gazette1.png", "Fluffy Gazette Paper 1", 900, 500]}
                 headerText={["Suprise Attack on the 7th of Tamamo. Read now to find out whos the perpetrator", "text-2xl text-blue-400"]}
             />
             <p className="text-center">On the morning of the 7th of Tamamo wormhole open alongside the North Coast. Multiple cities hit but luckily the Cuddly Kitsune Army responded quickly removing the terrorist. Read now to find out the details.
+            </p>
+        </div>
+        <div className="box-content w-95vh h-30 border flex justify-center items-center flex-col">
+            <DisplayPaper
+                imageInfo={["/articles/FluffyGazette/Fluffy_Gazette_2nd_Piece_2.png", "Fluffy Gazette Paper 2", 900, 500]}
+                headerText={["Following the Attack on the 7th of Tamamo tension and alert remains high in the Northern Countries", "text-2xl text-blue-400"]}
+            />
+            <p className="text-center">Following the attack on the 7th of Tamamo, reconstruction effort are now taking place to repair the damage. Read now to find out the details.
             </p>
         </div>
     </div>
